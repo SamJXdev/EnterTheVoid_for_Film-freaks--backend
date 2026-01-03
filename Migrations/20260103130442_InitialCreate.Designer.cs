@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Film.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260103123450_InitialCreate")]
+    [Migration("20260103130442_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

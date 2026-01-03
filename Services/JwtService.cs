@@ -36,7 +36,7 @@ namespace Film.Services
 
             var token = new JwtSecurityToken(
                 issuer: _config["Jwt:Issuer"],
-                audience: _config["Jwt: Audience"],
+                audience: _config["Jwt:Audience"],
                 claims: claims,
                 expires: DateTime.UtcNow.AddMinutes(
                     int.Parse(_config["Jwt:ExpiresInMinutes"]!)

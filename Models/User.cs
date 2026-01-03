@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
+using Film.Constants;
 
 namespace Film.Models
 {
@@ -22,6 +23,6 @@ namespace Film.Models
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public UserProgress? Progress { get; set; }
         public bool EmailVerified { get; set; } = false;
-        public string Role { get; set; } = "User";
+        public string Role { get; set; } = Roles.User;
     }
 }

@@ -31,7 +31,8 @@ namespace Film.Controllers
                 Id = user.Id,
                 UserName = user.UserName,
                 Name = user.Name,
-                Email = user.Email
+                Email = user.Email,
+                Role = user.Role
             }
             });
         }
