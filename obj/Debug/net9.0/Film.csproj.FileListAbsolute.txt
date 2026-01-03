@@ -182,3 +182,4 @@ C:\Users\JACKSON\OneDrive\Desktop\Film_Workspace\film\obj\Debug\net9.0\refint\Fi
 C:\Users\JACKSON\OneDrive\Desktop\Film_Workspace\film\obj\Debug\net9.0\Film.pdb
 C:\Users\JACKSON\OneDrive\Desktop\Film_Workspace\film\obj\Debug\net9.0\Film.genruntimeconfig.cache
 C:\Users\JACKSON\OneDrive\Desktop\Film_Workspace\film\obj\Debug\net9.0\ref\Film.dll
+C:\Users\JACKSON\OneDrive\Desktop\Film_Workspace\film\obj\Debug\net9.0\Film.sourcelink.json

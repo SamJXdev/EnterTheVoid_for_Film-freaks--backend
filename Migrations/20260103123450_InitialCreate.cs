@@ -64,7 +64,8 @@ namespace Film.Migrations
                     Email = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
                     PasswordHash = table.Column<string>(type: "TEXT", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    EmailVerified = table.Column<bool>(type: "INTEGER", nullable: false)
+                    EmailVerified = table.Column<bool>(type: "INTEGER", nullable: false),
+                    Role = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {

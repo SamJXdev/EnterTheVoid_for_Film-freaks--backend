@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Film.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260102125550_InitialCreate")]
+    [Migration("20260103123450_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -157,6 +157,10 @@ namespace Film.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Role")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
